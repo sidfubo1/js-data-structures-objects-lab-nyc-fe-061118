@@ -6,5 +6,5 @@ let driver = {
 }
 
 function updateDriverWithKeyAndValue (driverCopy, key, value) {
-  driverCopy = [...driver, [key]: value];
+  return driverCopy = [...driver, [key]: value];
 }
