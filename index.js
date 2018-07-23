@@ -4,3 +4,8 @@ let driver = {
   LastName: 'Shah',
   Age: 25
 }
+
+function updateDriverWithKeyAndValue (driverCopy, key, value) {
+  driverCopy = [... driver];
+  driverCopy[key] = value;
+}
