@@ -3,5 +3,4 @@ let driver = {
   FirstName: Sid,
   LastName: Shah,
   Age: 25,
-  
 }
