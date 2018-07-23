@@ -2,5 +2,5 @@
 let driver = {
   FirstName: 'Sid',
   LastName: 'Shah',
-  Age: 25,
+  Age: 25
 }
