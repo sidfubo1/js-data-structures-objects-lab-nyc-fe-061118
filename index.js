@@ -5,7 +5,7 @@ let driver = {
   Age: 25
 }
 
-function updateDriverWithKeyAndValue (driver, key, value) {
-  let driverCopy = Object.assign({}, driver);
+function updateDriverWithKeyAndValue (driverCopy, key, value) {
+  driverCopy = Object.assign({}, driver);
   driverCopy[key] = value;
 }
